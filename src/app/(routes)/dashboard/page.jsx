@@ -18,7 +18,7 @@ function Dashboard() {
     user && getBudgetList();
   }, [user]);
   /**
-   * used to get budget List
+   * used to get budget List 
    */
   const getBudgetList = async () => {
     const result = await db
